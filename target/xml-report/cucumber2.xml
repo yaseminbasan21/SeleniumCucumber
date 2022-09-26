@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="96.687">
+    <testcase classname="US1002 Kullanıcı ortak adımları Background ile calıstırır" name="TC05 amazon java arama" time="51.751">
+        <system-out>
+            <![CDATA[Given kullanıcı amazon anasayfasında........................................passed
+And kullanıcı Java icin arama yapar.........................................passed
+Then sonucların Java icerdigini test eder...................................passed
+And sayfayı kapatır.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1004 Kullanıcı parametre ile configuration file'i kullanabilmeli" name="TC07 configuration properties dosyasından parametre kullanımı" time="22.987">
+        <system-out>
+            <![CDATA[Given kullanıcı "brcUrl" anasayfasında......................................passed
+Then kullanıcı 2 sn bekler..................................................passed
+And url'nin "blue" icerdigini test eder.....................................passed
+Then sayfayı kapatır........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1011 web tablosundaki istenen sutunu yazdırma" name="TC16 kullanıcı sutun baslıgı ile liste alabilmeli" time="21.039">
+        <system-out>
+            <![CDATA[Given kullanıcı "guruUrl" anasayfasında.....................................passed
+And "Company",sutunundaki tum degerleri yazdırır............................passed
+Then sayfayı kapatır........................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
